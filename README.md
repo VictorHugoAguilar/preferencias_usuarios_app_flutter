@@ -1,6 +1,24 @@
-# preferencias_usuarios
+# Preferencias_Usuarios
 
-A new Flutter project.
+Los objetivos de esta aplicación son:
+
+-   Aprender cómo guardar en el storage
+-   Aprender a leer del storage
+-   Cómo leer información del storage antes de que la aplicación se ejecute
+-   Implementar un singleton para aumentar la eficiencia del mismo.
+-   En este ejemplo vemos como guardar información en el storage nativo sin usar SQLite.
+
+## Dependencias utilizadas
+
+- [shared_preferences](https://pub.dev/packages/shared_preferences/install)
+
+    Wraps platform-specific persistent storage for simple data (NSUserDefaults on iOS and macOS, SharedPreferences on Android, etc.). Data may be persisted to disk asynchronously, and there is no guarantee that writes will be persisted to disk after returning, so this plugin must not be used for storing critical data.
+
+    ````
+    dependencies:
+    shared_preferences: ^0.5.12+4
+    ````
+
 
 ## Getting Started
 
